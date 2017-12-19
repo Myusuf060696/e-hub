@@ -18,10 +18,10 @@ $mail->Debugoutput = 'html';
 $mail->Host = "smtp.gmail.com";
 $mail->Port = 587; 
 $mail->SMTPAuth = true;
-$mail->Username = "muhammadyusuf931@gmail.com";
-$mail->Password = "malangke06";
+$mail->Username = "youremail@apalah.com";
+$mail->Password = "rahasiabingits";
 $mail->setFrom($emailnyo, $namasiswa);
-$mail->addAddress('yusuf.9149@students.amikom.ac.id', 'Uncup');
+$mail->addAddress('yusuf.9149@students.amikom.ac.id', 'Yusuf');
 $mail->Subject = "LAMARAN";
 $mail->msgHTML($isi);
 if (!$mail->send()) {
