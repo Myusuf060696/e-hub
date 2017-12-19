@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+font-family: 'Roboto', sans-serif;
+}
+.navbar-inverse {
+ background-color: #1A324D;
+}
+
+
+.logo{
+    width: 150px; 
+    padding-top: 5px;
+}
+  
+.kotak-bawah{
+height: auto;
+ box-shadow: 0 0 1px #8C8C8C;
+margin-top: 50px;
+    background:#f2f4f7
+   
+}
+
+.kotak{
+    border: 1px solid #dedfe0;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 3px;
+    background: white;
+    text-align: left;
+     
+}
+
+.kotak-footer{
+  background-color:#CCCCCC;
+    width:100%;
+    font-size: 11px;
+    text-align: left;
+}
+.table td{
+    padding: 5px;
+    text-align: left;
+    
+    padding-left: 10px;
+    
+}
+.isi{
+    width: 100%;
+
+}
+.form{
+    float: left;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #6090c4;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #6090c4;
+    color: white;
+}
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal2-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close2 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal2-header {
+    padding: 2px 16px;
+    background-color: #6090c4;
+    color: white;
+}
+
+.modal2-body {padding: 2px 16px;}
+
+.modal2-footer {
+    padding: 2px 16px;
+    background-color: #6090c4;
+    color: white;
+    
+}
+
+
+.thumbnail{
+    float: left;
+    margin: 16px;
+    width: 22.5%;
+}
+.b{
+    width: 80%;
+}
+.thumbnail p{
+    font-size: 12px;
+    
+}
+.frame-image {
+    /* 
+    CSS Untuk croping gambar / foto 
+
+    Disini Anda dapat menentukan lebar dan tinggi image
+    */
+   /* width: 287px;
+    height: 258px;
+    overflow: hidden;*/
+
+    /* 
+    CSS Untuk mengatur posisi gambar 
+    Menjadikan frame / bingkai sebagai patokan koordinat left/top
+    */
+  /*  position: relative;*/
+
+   width: 290px;
+    height: 250px;
+    overflow: hidden;
+    margin: -2px;
+    position: relative;
+    
+}
+
+.frame-image img {
+    /*
+    CSS Untuk croping gambar
+    Membatasi tinggi gambar, membiarkan width-nya auto
+    Bisa juga diganti jadi height: 320px jika tinggi gambar mau dipaksakan jadi 320px
+    */
+    max-height: 320px !important;
+
+    /* 
+    CSS Untuk mengatur posisi gambar 
+    Left/top berpatokan pada frame
+    Diisi dengan nilai minus untuk memposisikan keluar dari frame
+    karena frame overflow-nya dibuat jadi hidden
+    posisi yg keluar area frame jadi tidak terlihat
+
+    Disini Anda dapat mengatur bagian/posisi gambar yg mana yg akan ditampilkan
+    */
+  /*  position: absolute;
+    left: -83px;
+    top: -27px;*/
+
+   position: absolute;
+    left: -1000%;
+    right: -1000%;
+    top: -1000%;
+    bottom: -1000%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+.objekk{
+object-fit: cover;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  background-color: #2B3D58;
+}
+.navbar-inverse .navbar-nav>li>a{
+  color: white;
+}

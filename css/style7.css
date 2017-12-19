@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+font-family: 'Roboto', sans-serif;
+}
+.kotak{
+    width: 300px;
+    height: 150px;
+    float: left;
+    margin: 10px;
+    box-shadow: 0 0 1px #8C8C8C;
+
+}
+.kotak-dalam{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    background-color: white;
+    float: left;
+}
+.kotak-dalam2{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    
+    float: left;
+    color: white;
+}
+
+.kotak-dalam img{
+    max-width: 115px;
+}
+.kotak-dalam2 p{
+    font-size: 30px;
+}

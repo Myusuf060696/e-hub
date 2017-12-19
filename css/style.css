@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+font-family: 'Roboto', sans-serif;
+}
+.navbar-default {
+    background-color: #f0f5f5;
+   
+}
+.info{
+    margin-top: 8px;
+
+}
+.logo{
+    width: 150px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+   
+  
+}
+.logo2{
+    width: 150px;
+    margin-top: 60px;
+   
+  
+}
+.kotak-bawah{
+    height: auto;
+    background-color: #f0f5f5;
+    padding-bottom: 8%;
+     box-shadow: 0 0 1px #8C8C8C;
+}
+.kotak-footer{
+  background-color: #CCCCCC;
+    width:100%;
+    font-size: 11px;
+    text-align: left;
+}
+
+.deskripsi{
+    background-color: #D5EFF7;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #2C6173;
+    box-shadow: 0 0 1px #ABABA;
+    
+}
+.kotak{
+    width: 370px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    box-shadow: 0 0 1px #8C8C8C;
+
+}
+.kotak-dalam{
+    width: 185px;
+    height: 200px;
+    padding: 10px;
+    background-color: white;
+    float: left;
+}
+.kotak-dalam2{
+    width: 185px;
+    height: 200px;
+    padding: 10px;
+    background-color: #85c441;
+    float: left;
+    color: white;
+}
+
+.kotak-dalam3{
+    width: 185px;
+    height: 200px;
+    padding: 10px;
+    background-color: #ebbe35;
+    float: left;
+    color: white;
+}
+.kotak-dalam4{
+    width: 185px;
+    height: 200px;
+    padding: 10px;
+    background-color: #80dbd1;
+    float: left;
+    color: white;
+}
+
+.thumbnail{
+    float:left;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+}
+.caption {
+    height: 120px;
+}
+.caption p{
+    height: 60px;
+    text-align: center;
+}
+.form-horizontal{
+    margin: 10px;
+    
+    
+}
+.breadcrumb{
+   background-color: #D5EFF7;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #2C6173;
+    box-shadow: 0 0 1px #ABABA;
+}

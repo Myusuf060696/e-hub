@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+font-family: 'Roboto', sans-serif;
+}
+.navbar-inverse {
+ background-color: #1A324D;
+}
+
+
+.logo{
+    width: 150px; 
+    padding-top: 5px;
+}
+  
+.kotak-bawah{
+height: auto;
+ box-shadow: 0 0 1px #8C8C8C;
+margin-top: 50px;
+}
+.kiri{
+    width:100%;
+    background-color: #F0F4F5;
+    margin: 5px;
+    padding: 5px;
+}
+.kanan{
+    width:100%;
+    background-color: #F0F4F5;
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+
+.kotak-footer{
+  background-color: #CCCCCC;
+    width:100%;
+    font-size: 11px;
+    text-align: left;
+}
+.table td{
+    padding: 5px;
+    text-align: left;
+    
+    padding-left: 10px;
+    
+}
+
+.form{
+    float: left;
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close2 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  background-color: #2B3D58;
+}
+.navbar-inverse .navbar-nav>li>a{
+  color: white;
+}
